@@ -1,5 +1,5 @@
 from hill_cipher import encrypt
-from decrypt import decrypt
+from decrypt_utils import determinant_4x4
 
 key_matrix = [
     [3, 3],
