@@ -6,6 +6,7 @@ key_matrix = [
     [2, 5]
 ]
 
+
 while True:
     print("\n--- HILL CIPHER MENU ---")
     print("1. Encrypt")
