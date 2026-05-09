@@ -7,7 +7,7 @@ def choose_matrix():
     print("2. Matrix 3x3")
     print("3. Matrix 4x4")
 
-    choice = input("Zgjedh: ")
+    choice = input("Zgjedh:")
 
     if choice == "1":
         return [
@@ -31,12 +31,12 @@ def choose_matrix():
         ]
 
     else:
-        print("Opsion i pavlefshem!")
+        print("Opsion i pavlefshem")
         return None
 
 
 while True:
-    print("\n--- HILL CIPHER MENU ---")
+    print("\nHILL CIPHER MENU")
     print("1. Encrypt")
     print("2. Decrypt")
     print("3. Exit")
@@ -51,10 +51,10 @@ while True:
             continue
 
         if not is_invertible(key_matrix):
-            print("Matrixa nuk eshte e invertueshme!")
+            print("Matrixa nuk eshte e invertueshme")
             continue
 
-        text = input("Shkruaj plaintext: ")
+        text = input("Shkruaj plaintextin: ")
 
         encrypted_text = encrypt(text, key_matrix)
 
@@ -68,10 +68,10 @@ while True:
             continue
 
         if not is_invertible(key_matrix):
-            print("Matrixa nuk eshte e invertueshme!")
+            print("Matrixa nuk eshte e invertueshme")
             continue
 
-        text = input("Shkruaj ciphertext: ")
+        text = input("Shkruaj ciphertextin: ")
 
         decrypted_text = decrypt(text, key_matrix)
 
